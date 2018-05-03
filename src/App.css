@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: monospace; */
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  height: 150px;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.nav {
+  margin-top: 35vh;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+
+}
+ul li {
+  list-style: none;
+  color: red;
+}
+li:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+/* @keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */

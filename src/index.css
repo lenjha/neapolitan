@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: repeating-linear-gradient(
+    to right,
+    #f1f2e6,
+    #f1f2e6 100px,
+    #ffe0eb 100px,
+    #ffe0eb 200px,
+    #e0cfc7 200px,
+    #e0cfc7 300px
+    );
+}
